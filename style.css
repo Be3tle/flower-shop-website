@@ -1,4 +1,9 @@
 /* common shared */
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -20,8 +25,8 @@ body {
 .section-title {
   color: #272727;
   text-align: center;
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 .section-description {
@@ -29,6 +34,9 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
 }
 
 .center {
@@ -76,11 +84,6 @@ header {
   justify-content: space-between;
 }
 
-/* .banner .tulip {
-    width: 700px;
-    padding-top: 60px;
-  } */
-
 .deal-title {
   margin: 5px 0 20px 30px;
   color: #272727;
@@ -111,7 +114,10 @@ header {
 }
 
 /* instagram */
-.img-container {
+.ig-container {
+  padding: 40px 600px;
+}
+.ig-items {
   display: flex;
   gap: 24px;
   padding: 0 240px;
@@ -140,4 +146,34 @@ header {
   border-radius: 5px;
   background: #fff;
   border: 0;
+}
+
+/* footer */
+footer {
+  background: #111010;
+  display: flex;
+  align-items: center;
+}
+
+.footer-items {
+  padding: 130px 650px;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 52px;
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }
