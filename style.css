@@ -232,6 +232,7 @@ header {
 }
 .avatar {
   width: 100px;
+  height: auto;
   border-radius: 100px;
   outline: 5px solid #fff;
   margin: 20px 200px 0 200px;
