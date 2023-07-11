@@ -1,0 +1,143 @@
+/* common shared */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.btn-primary {
+  border-radius: 7px;
+  background: #e55473;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 40px;
+}
+
+.text-primary {
+  color: #e55473;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.center {
+  text-align: center;
+}
+
+/* header */
+header {
+  background: rgba(165, 33, 62, 0.1);
+}
+
+.banner {
+  padding: 30px 60px 0px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .banner .tulip {
+  width: 700px;
+  padding-top: 60px;
+} */
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  margin-bottom: 30px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.banner-content {
+  max-width: 585px;
+}
+
+/* deal */
+.deal {
+  padding: 30px 320px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .banner .tulip {
+    width: 700px;
+    padding-top: 60px;
+  } */
+
+.deal-title {
+  margin: 5px 0 20px 30px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.deal-description {
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.deal-content {
+  max-width: 585px;
+}
+
+.deal-tulip {
+  width: 318px;
+  height: 420px;
+  flex-shrink: 0;
+}
+
+/* instagram */
+.img-container {
+  display: flex;
+  gap: 24px;
+  padding: 0 240px;
+}
+
+/* subscribe */
+.subscribe {
+  background-color: #fff;
+  background-image: url("./flower-asset/rectangle9.png");
+  padding: 130px 240px;
+  background-repeat: no-repeat;
+  background-origin: content-box, padding-box;
+}
+
+.subscribe-container {
+  padding: 120px 280px;
+}
+
+.center input[type="text"] {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  padding: 18px 105px;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+}
